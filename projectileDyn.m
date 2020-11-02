@@ -11,5 +11,4 @@ g = (mu*1000^3)/(Re*1000+x(2))^2;
 xDot = zeros(length(x),1);
 xDot(1:2) = x(3:4);
 xDot(3:4) = [-D_m*cos(gamma); -D_m*sin(gamma)-g];
-
 end
