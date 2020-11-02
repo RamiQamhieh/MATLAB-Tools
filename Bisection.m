@@ -1,5 +1,4 @@
 function [x, n, ab] = Bisection(f, a, b, tolerance, M)
-%Written by Garrett Ailts
 % Takes in a function f and the bounds of an interval a b and finds the
 % solutions to f (i.e. when f(x)=0) using the Bisection method. Function tolerance delta_f and the max
 % number of iterations M can also be specified. If they aren't, the default
