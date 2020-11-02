@@ -1,5 +1,4 @@
 % Damped Oscillators
-% 
 clear vars, close all
 %% Define Constants
 k = 400; % N/m
